@@ -1,0 +1,33 @@
+.firstDiv{
+  color : blue;
+}
+
+.secondDiv{
+  color: red;
+}
+
+#singledout{
+  color : green;
+  text-decoration: line-through;
+}
+/* } to choose the ID */
+
+/* *{
+  color : black;
+} */
+/* 모든 파일을 하나로 지정할때는 *를 사용한다!! */
+
+
+h3 + ul {
+  border : 4px dotted purple
+}
+
+
+li a{
+  color : red;
+}
+
+li a[href = "www.npr.org"]{
+  color: blue;
+  border:  5px solid orange;
+}

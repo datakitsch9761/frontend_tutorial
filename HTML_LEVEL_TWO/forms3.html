@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Feedback</title>
+  </head>
+  <body>
+  <h1>Hotel Feedback From</h1>
+  <form method="get">
+    <h2>Are you from inside the US? Or Outside the US?</h2>
+
+    <label for="inusa">Inside : </label>
+    <input id="inusa" type="radio" name="loc" value="">
+
+
+    <label for="outusa">outside :</label><!--for, id 명칭이 같아야 함 -->
+    <input id="outusa" type="radio" name="loc" value="">
+
+    <h2>How was your service?</h2>
+    <select name="stars"> <!--drop down menu-->
+      <option value="Great">3</option><!--Value won't be shown by the user-->
+      <option value="Okay">2</option>
+      <option value="Bad">1</option>
+    </select>
+    <input type="submit" name="" value="submit">
+
+  <p>Any other feedback?</p>
+  <textarea name="mytext" rows="8" cols="80"></textarea>
+  <input type="submit" name="" value="submit">
+  </form>
+
+
+  </body>
+</html>

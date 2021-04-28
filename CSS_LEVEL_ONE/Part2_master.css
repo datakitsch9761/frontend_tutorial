@@ -1,0 +1,24 @@
+/* selected tag{
+  property : value;
+} */
+
+body{
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Seoul_Tower_View.jpg/1200px-Seoul_Tower_View.jpg);
+  background-repeat: repeat;
+}
+
+div{
+  background: blue;
+  border-color: orange;
+  border-width: 4px;
+  border-style: double;
+}
+
+p{
+  color: yellow;
+}
+
+span{
+  background: red;
+  color: black;
+}

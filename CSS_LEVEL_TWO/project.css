@@ -1,0 +1,35 @@
+h1{
+  text-align: center;
+}
+
+.art{
+  margin: auto;
+}
+
+h1{
+   font-family: 'OddBallzRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+td{
+  height: 200px;
+  width :100px;
+  border: 6px solid white;
+}
+
+#one{
+  background-color: #034732;
+}
+#two{
+  background-color: #008148;
+}
+#three{
+  background-color: #C6C013;
+}
+#four{
+  background-color: #EF8A17;
+}
+#five{
+  background-color: #EF2917;
+}
