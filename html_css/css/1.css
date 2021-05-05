@@ -1,0 +1,11 @@
+h1, p{
+  color : red;
+}
+
+para1, colortext{
+  color : red;
+}
+
+h1,p,para1,colortext{
+  color : red;
+}
